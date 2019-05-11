@@ -359,7 +359,7 @@ function main()
   // 3. train network
   let lrnRate = 0.015;
   let maxEpochs = 5000;
-  let momentRate = 0.20;  // momentum
+  let momentRate = 0.20;  // momentum typically 0.90
   console.log("\nStarting training with learn rate = 0.015 momentum = 0.20");
   nn.train(trainX, trainY, lrnRate, maxEpochs, momentRate);
   console.log("Training complete");
