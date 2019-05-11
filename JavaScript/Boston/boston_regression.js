@@ -362,7 +362,7 @@ function main()
     testAcc.toFixed(4).toString());
 
   // 5. save model
-  fn = ".\\Models\\boston_wts.txt";
+  let fn = ".\\Models\\boston_wts.txt";
   console.log("\nSaving model weights and biases to: ");
   console.log(fn);
   nn.saveWeights(fn);
